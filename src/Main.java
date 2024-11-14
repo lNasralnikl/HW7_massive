@@ -64,7 +64,7 @@ public class Main {
         System.out.println("Задача 4");
 
         i = 0;
-        while (i <= weight.length-1) {
+        while (i <= weight.length - 1) {
             if (weight[i] % 2 != 0) {
                 weight[i] = weight[i] + 1;
             }
